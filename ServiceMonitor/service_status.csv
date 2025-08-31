@@ -1,0 +1,7 @@
+timestamp,service,host,port,status
+2025-08-31 17:21:51,Google DNS,8.8.8.8,53,UP
+2025-08-31 17:21:51,Local Web Server,127.0.0.1,80,DOWN
+2025-08-31 17:21:51,Local HTTPS,127.0.0.1,443,DOWN
+2025-08-31 17:21:51,Remote Desktop,192.168.1.10,3389,DOWN
+2025-08-31 17:21:51,SQL Server,192.168.1.20,1433,DOWN
+2025-08-31 17:21:51,SMTP Mail,smtp.gmail.com,587,UP
