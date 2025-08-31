@@ -1,2 +1,21 @@
-# FailedLogonAnalyser-
-Python script to analyze Windows failed logon events, generate CSV reports, and prepare emails via Windows Mail.
+# Windows Failed Logon Analyzer
+
+توضیح پروژه: 
+این پروژه یک اسکریپت Python برای تحلیل لاگین‌های ناموفق در ویندوز است. اسکریپت لاگ‌های Security را بررسی کرده، گزارشی با فرمت CSV تولید می‌کند و از طریق Gmail ایمیل می‌کند.
+
+## ویژگی‌ها
+- خواندن لاگ‌های Event ID 4625 (Failed Logon)
+- ذخیره CSV قابل تحلیل
+- ارسال ایمیل حتی اگر هیچ خطایی پیدا نشود (سیستم سالم است)
+- مناسب برای اضافه کردن به رزومه و پرتفولیو
+
+## پیش‌نیازها
+- Python 3.x نصب شده
+- حساب Gmail برای ارسال ایمیل
+- کتابخانه‌ها: `pandas`, `pywin32`
+- اجرای اسکریپت به عنوان Administrator
+
+## نحوه اجرا
+```bash
+pip install pandas pywin32
+python failed_logons.py
