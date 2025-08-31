@@ -5,8 +5,7 @@ Automation Scripts Collection
 ## پروژه‌ها:
 1. **FailedLogonAnalyzer**  
    - بررسی لاگین‌های ناموفق ویندوز، تولید CSV و ارسال ایمیل هشدار.  
-   - [لینک به فولدر](./FailedLogonAnalyzer)
-
+   - [لینک به فولدر]https://github.com/Soheillhoseini/Automation-Scripts/tree/main/FailedLogonAnalyser
 2. **ServiceMonitor**  
    - بررسی وضعیت سرویس‌ها و سرورها، خروجی CSV و هشدار ایمیل در صورت Down بودن سرویس‌ها.  
    - [لینک به فولدر](./ServiceMonitor)
